@@ -1,4 +1,4 @@
-angular.module('JapaneseCtrl', []).controller('JapaneseController', function($scope) {
+angular.module('JapaneseCtrl', []).controller('JapaneseController', ['$scope', function($scope) {
 
 	$scope.tagline = 'Although its scent still lingers on the form of a flower has scattered away. For whom will the glory, of this world remain unchanged? Arriving today at the yonder side, of the deep mountains of evanescent existence. We shall never allow ourselves to drift away intoxicated, in the world of shallow dreams.';
 
@@ -235,4 +235,4 @@ angular.module('JapaneseCtrl', []).controller('JapaneseController', function($sc
     $scope.information = this.letter.information;
   };
 
-});
+}]);
