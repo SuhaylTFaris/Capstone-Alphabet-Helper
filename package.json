@@ -6,11 +6,12 @@
     "bower": "^1.7.0",
     "express": "~4.5.1",
     "method-override": "~2.0.2",
-    "mongoose": "~3.8.0"
+    "mongoose": "~3.8.0",
+    "nodemon": "^1.8.1"
   },
   "scripts": {
     "postinstall": "bower install",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "description": "App that helps people learn languages alphabets.",
   "version": "1.0.0",
