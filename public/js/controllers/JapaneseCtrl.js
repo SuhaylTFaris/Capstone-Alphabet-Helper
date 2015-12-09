@@ -3,11 +3,11 @@ angular.module('JapaneseCtrl', []).controller('JapaneseController', function($sc
 	$scope.tagline = 'Although its scent still lingers on the form of a flower has scattered away. For whom will the glory, of this world remain unchanged? Arriving today at the yonder side, of the deep mountains of evanescent existence. We shall never allow ourselves to drift away intoxicated, in the world of shallow dreams.';
 
   $scope.letters = [
-  {letter: "あ", information: "Romanized as the letter: A. First letter of the Japanese Alphabet. "},
-  {letter: "い", information: "test2"},
-  {letter: "う"},
-  {letter: "え"},
-  {letter: "お"}
+  {letter: "あ", information: "Romanized as the letter: A. First letter of the Japanese Alphabet. ありがとう (arigatou -> Thank you) あたし (atashi -> me) あし (ashi -> feet; leg) あなた (anata -> you; dear) 兄/あに (ani -> elder brother) 姉/あね (ane -> elder sister) 雨/あめ (ame -> rain)"},
+  {letter: "い", information: "Romanized as the letter: I. Second letter of the Japanese Alphabet. 行く/いく (iku -> to go) 石/いし (ishi -> stone) いっしょ (issho -> together) いす (isu -> chair)"},
+  {letter: "う", information: "Romanized as the letter: U. Third letter of the Japanese Alphabet. 上/うえ (ue -> on; over; above; top; older) 嘘/うそ (uso -> lie) 美しい/うつくしい (utsukushii -> beautiful) 海/うみ (umi -> sea)"},
+  {letter: "え", information: "Romanized as the letter: E. Fourth letter of the Japanese Alphabet. 円/えん (en -> yen (Japanese money)) えいごく (engoku -> United Kingdom) 駅/えき (eki -> station) 演劇/えんげき (engeki -> drama, play)"},
+  {letter: "お", information: "Romanized as the letter: O. Fifth letter of the Japanese Alphabet. 女/おんな (onna -> woman) 男/おとこ (otoko -> man) おいしい (oishii -> delicious) おれ (ore -> me (casual)) おまえ (omae -> you (informal))"}
   ];
 
   $scope.letters2 = [
