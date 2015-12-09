@@ -1,11 +1,27 @@
 {
-  "name": "starter-node-angular",
+  "name": "language-alphabet-helper",
   "main": "server.js",
   "dependencies": {
-    "express" : "~4.5.1",
-	"mongoose" : "~3.8.0",
-	"body-parser" : "~1.4.2",
-	"method-override" : "~2.0.2"
-  }
+    "express": "~4.5.1",
+    "mongoose": "~3.8.0",
+    "body-parser": "~1.4.2",
+    "method-override": "~2.0.2"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "node server.js"
+  },
+  "description": "App that helps people learn languages alphabets.",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuhaylTFaris/Capstone-Alphabet-Helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuhaylTFaris/Capstone-Alphabet-Helper/issues"
+  },
+  "homepage": "https://github.com/SuhaylTFaris/Capstone-Alphabet-Helper#readme"
 }
-
