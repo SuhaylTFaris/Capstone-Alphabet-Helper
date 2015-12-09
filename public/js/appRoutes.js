@@ -3,19 +3,19 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 	$routeProvider
 
 		// home page
-		.when('/', {
-			templateUrl: 'views/home.html',
-			controller: 'MainController'
+		.when('/Japanese', {
+			templateUrl: 'views/Japanese.html',
+			controller: 'JapaneseController'
 		})
 
-		.when('/nerds', {
-			templateUrl: 'views/nerd.html',
-			controller: 'NerdController'
+		.when('/German', {
+			templateUrl: 'views/German.html',
+			controller: 'GermanController'
 		})
 
-		.when('/geeks', {
-			templateUrl: 'views/geek.html',
-			controller: 'GeekController'	
+		.when('/Portuguese', {
+			templateUrl: 'views/Portuguese.html',
+			controller: 'PortugueseController'
 		});
 
 	$locationProvider.html5Mode(true);

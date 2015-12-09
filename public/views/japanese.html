@@ -1,0 +1,110 @@
+<link rel="stylesheet" href="../css/JapaneseStyle.css">
+
+
+<div class="jumbotron text-center">
+	<h1>Japanese</h1>
+
+	<p class="text-center">{{ tagline }}</p>
+</div>
+<label>
+  <select ng-change="show()" ng-model="this.select" ng-init="this.select = selections[0]" data-ng-options="select.select for select in selections">
+  </select>
+</label>
+
+<div ng-show="vowels" class="row text-center" ng-repeat="letter in letters">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="B" class="row text-center" ng-repeat="letter in letters2">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="D" class="row text-center" ng-repeat="letter in letters3">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="F" class="row text-center" ng-repeat="letter in letters4">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="G" class="row text-center" ng-repeat="letter in letters5">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="H" class="row text-center" ng-repeat="letter in letters6">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="JZ" class="row text-center" ng-repeat="letter in letters7">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="K" class="row text-center" ng-repeat="letter in letters8">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="M" class="row text-center" ng-repeat="letter in letters9">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="N" class="row text-center" ng-repeat="letter in letters10">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="P" class="row text-center" ng-repeat="letter in letters11">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="R" class="row text-center" ng-repeat="letter in letters12">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="S" class="row text-center" ng-repeat="letter in letters13">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="T" class="row text-center" ng-repeat="letter in letters14">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="WUn" class="row text-center" ng-repeat="letter in letters15">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div ng-show="YV" class="row text-center" ng-repeat="letter in letters16">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn-lg btn-default" ng-click="showInfoBox()">{{ letter.letter }}</button>
+  </div>
+</div>
+
+<div class="jumbotron text-center" ng-show="infobox">{{ information }}</div>
