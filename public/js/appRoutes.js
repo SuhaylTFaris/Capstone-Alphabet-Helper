@@ -3,18 +3,22 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 	$routeProvider
 
 		// home page
+		.when('/', {
+		  templateUrl: 'views/japanese.html',
+		  controller: 'JapaneseController'
+		})
 		.when('/Japanese', {
-			templateUrl: 'views/Japanese.html',
+			templateUrl: 'views/japanese.html',
 			controller: 'JapaneseController'
 		})
 
 		.when('/German', {
-			templateUrl: 'views/German.html',
+			templateUrl: 'views/german.html',
 			controller: 'GermanController'
 		})
 
 		.when('/Portuguese', {
-			templateUrl: 'views/Portuguese.html',
+			templateUrl: 'views/portuguese.html',
 			controller: 'PortugueseController'
 		});
 
